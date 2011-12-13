@@ -26,12 +26,13 @@ a :hover { text-decoration:none; }
   vertical-align:middle;
   margin-right:20px;
 }
+#header .subtitle { color:#a3d062; }
 .leftmodules {
-  width:300px;
+  width:220px;
   float:left;
 }
 .component {
-  width:620px;
+  width:700px;
   float:left;
   margin-left:20px;
 }
@@ -45,12 +46,12 @@ a :hover { text-decoration:none; }
   overflow:hidden;
   color:#666666;
 }
-#copyright {
+#footer #copyright {
   width:460px;
   float:left;
   line-height:59px;
 }
-#themeables {
+#footer #themeables {
   width:460px;
   float:left;
   text-align:right;
