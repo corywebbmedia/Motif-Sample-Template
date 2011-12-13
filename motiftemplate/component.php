@@ -11,7 +11,7 @@
 defined('_JEXEC') or die('Restricted access');
 /* INCLUDE FRAMEWORK CLASS */
 global $motif;
-require_once(JPATH_SITE.'plugins'.DS.'system'.DS.'motif'.DS.'motif.php');
-$motif = new motif($this, 'component');
+jimport('motif.motif');
+$motif = new motif($this, 'component', 1);
 $motif->load();
 ?>
