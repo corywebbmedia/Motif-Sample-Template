@@ -1,0 +1,1 @@
+<?php defined('_JEXEC') or die('Restricted access'); ?><div id="container">	<?php		getFile('header.php');		modules('left', 'xhtml', '<div class="leftmodules">', '</div>');		component('<div class="component">', '</div>');		getFile('footer.php');	?></div>

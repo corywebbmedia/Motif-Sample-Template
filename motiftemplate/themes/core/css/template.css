@@ -1,0 +1,57 @@
+body {
+  font-family:helvetica, arial, sans-serif;
+  background-color:#ffffff;
+  color:#333333;
+  text-align:center;
+}
+a {
+  color:#f7921d;
+  text-decoration:underline;
+}
+a :hover { text-decoration:none; }
+#container {
+  width:940px;
+  margin:0 auto;
+  text-align:left;
+}
+#header {
+  width:940px;
+  padding:10px 0;
+  border-bottom:1px solid #cccccc;
+  margin-bottom:20px;
+  font-size:30px;
+  line-height:56px;
+}
+#header img {
+  vertical-align:middle;
+  margin-right:20px;
+}
+.leftmodules {
+  width:300px;
+  float:left;
+}
+.component {
+  width:620px;
+  float:left;
+  margin-left:20px;
+}
+#footer {
+  clear:both;
+  width:940px;
+  padding:10px 0;
+  border-top:1px solid #cccccc;
+  margin-top:20px;
+  font-size:12px;
+  overflow:hidden;
+  color:#666666;
+}
+#copyright {
+  width:460px;
+  float:left;
+  line-height:59px;
+}
+#themeables {
+  width:460px;
+  float:left;
+  text-align:right;
+}
