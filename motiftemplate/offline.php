@@ -12,6 +12,6 @@ defined('_JEXEC') or die('Restricted access');
 /* INCLUDE FRAMEWORK CLASS */
 global $motif;
 jimport('motif.motif');
-$motif = new motif($this, 'offline', 1);
+$motif = Motif::getInstance(1);
 $motif->load();
 ?>
